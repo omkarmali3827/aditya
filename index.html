@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Quick Booking
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <nav class="d-flex justify-content-between  bg-black  " style="padding: 20px;">
+            <div>
+              <select name="" id="">
+                <option selected>select movies</option>
+                <option value="1">movies 1</option>
+                <option value="2"> movies3</option>
+                <option value="3"> movies3</option>
+              </select>
+            </div>
+
+            <div>
+              <select name="" id="">
+                <option selected>select cinema</option>
+                <option value="1">whitefield </option>
+                <option value="2">electronic city</option>
+                <option value="3">kadugodi</option>
+              </select>
+
+            </div>
+            <div>
+              <select name="" id="">
+                <option selected>select date</option>
+                <option value="1">10 march 24 </option>
+                <option value="2">11 march 24 </option>
+                <option value="3">13 march 24</option>
+              </select>
+
+            </div>
+            <div>
+              <select name="" id="">
+                <option selected>select time</option>
+                <option value="1">10pm </option>
+                <option value="2">2pm </option>
+                <option value="3">3pm</option>
+              </select>
+
+            </div>
+            <div>
+              <button class="btn btn-danger " onclick="showDetails()" data-bs-dismiss="modal">
+                Book
+              </button>
+            </div>
+
+          </nav>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      
+    </div>
+  </div>
+</body>
+
+</html>
